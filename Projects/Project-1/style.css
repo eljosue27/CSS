@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "AdiHaus";
+  src: URL("https://assets.codepen.io/6060109/adihaus_regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AdiHaus";
+  src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body,
+html {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+.all-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container-image {
+  background: url("https://assets.codepen.io/6060109/athlete-girl.png")
+    no-repeat 50% 50%;
+  background-size: cover;
+  height: 250px;
+}
+
+.text-container {
+  font-family: "AdiHaus";
+  font-style: normal;
+  text-align: center;
+  height: 112px;
+  padding: 20px;
+}
+h2 {
+  margin: 0;
+  font-size: 48px;
+  letter-spacing: 5px;
+}
+
+.red-text {
+  font-weight: 400;
+  line-height: 42px;
+  color: #cd3a24;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.bold-text {
+  font-weight: 700;
+  line-height: 50px;
+}
+.text-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.form-container {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input {
+  display: inline-block;
+  border-radius: 3px;
+  font-family: "AdiHaus";
+  box-sizing: border-box;
+}
+#input-text {
+  padding: 12px;
+  width: 70%;
+  border-right: none;
+}
+#submit {
+  color: #ffffff;
+  background-color: #333333;
+  font-weight: bold;
+  font-size: 14px;
+  width: 55px;
+  border: none;
+}
