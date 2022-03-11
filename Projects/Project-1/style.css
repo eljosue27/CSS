@@ -24,7 +24,7 @@ html {
   margin: 0 auto;
 }
 
-.container {
+.container-logo {
   display: flex;
   align-items: center;
   justify-content: center;
