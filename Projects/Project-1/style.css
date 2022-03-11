@@ -25,7 +25,6 @@ body {
 .all-container {
   max-width: 500px;
   margin: 0 auto;
-  min-height: 120vh;
 }
 
 .container-logo {
@@ -119,12 +118,13 @@ input {
   .mobile-image {
     display: none;
   }
+
   .desktop-image {
     display: block;
     width: 50%;
-    background: url("Bitmap.png");
+    background: url("https://assets.codepen.io/6060109/athlete-big.png");
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
   }
   .text-container {
     text-align: left;
