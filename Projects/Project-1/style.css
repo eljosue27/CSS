@@ -96,3 +96,45 @@ input {
   width: 55px;
   border: none;
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: grey;
+  }
+  .all-container {
+    position: relative;
+  }
+
+  .container-logo {
+    display: flex;
+
+    justify-content: flex-start;
+    margin-bottom: 60px;
+  }
+  .container-image {
+    display: none;
+  }
+
+  .container-big-image {
+    background: url("https://assets.codepen.io/6060109/athlete-girl.png")
+      no-repeat 50% 50%;
+    background-size: cover;
+    height: 500px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 40% 100%);
+  }
+  .text-container {
+    text-align: left;
+  }
+  .text-paragraph {
+    text-align: left;
+    width: 85%;
+  }
+
+  form {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .bold-text {
+    width: 55%;
+  }
+}
